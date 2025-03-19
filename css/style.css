@@ -1,0 +1,187 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the header section */
+header {
+    background-color: #3A6EA5; /* Deep cold blue */
+    color: #E0F7FA; /* Soft icy blue text */
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.header {
+    margin: 0px 0px 20px 0px;
+    font-size: 15px;
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #E0F7FA;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #5C9EBC; /* Soft teal */
+}
+
+/* Main Layout - Sidebar and Products */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #D9EAF1; /* Light icy blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #2E4A62; /* Deep muted blue */
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #B6D4E3; /* Muted cold blue */
+}
+
+/* Styling the product section */
+.products {
+    flex: 1;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    padding: 15px;
+    font-size: 25px;
+    color: #2E4A62;
+}
+
+/* Styling the About section */
+.about {
+    background: #D9EAF1; /* Light icy blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    color: #2E4A62; /* Deep muted blue */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.about h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #007ACC; /* Cold, icy blue */
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style: none;
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #E0F2F7; /* Soft ice-blue */
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: #2E4A62;
+}
+
+.product p {
+    color: #007ACC; /* Cold, icy blue */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product button {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #005F99; /* Darker, cool blue */
+}
+
+/* Footer */
+footer {
+    background-color: #2E4A62;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer p {
+    color: #E0F7FA;
+}
